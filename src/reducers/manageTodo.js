@@ -10,9 +10,3 @@ export default function manageTodo(state = {
       return state;
   }
 }
-
- return { todos: state.todos.concat(action.todo) }
-    default:
-      return state;
-  };
-};
